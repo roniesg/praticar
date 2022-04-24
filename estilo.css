@@ -21,3 +21,40 @@ body {
     );
     box-shadow: 0 15px 40px 1px rgba(0, 0, 0, 0, 0.3);
 }
+
+.instagram span{
+    display: block;
+    border:  15px solid #FFF;
+    width: 150px;
+    height: 150px;
+    border-radius: 55px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+
+}
+
+.instagram span::before{
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border:  15px solid #FFF;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.instagram span::after {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #FFF;
+    top: 16px;
+    right: 16px;
+    content: "";
+    position: absolute;
+}
